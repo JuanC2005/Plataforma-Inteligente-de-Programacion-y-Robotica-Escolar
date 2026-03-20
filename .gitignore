@@ -1,0 +1,64 @@
+# =============================================
+# FRONTEND (React)
+# =============================================
+
+# Dependencias
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Testing
+frontend/coverage/
+
+# Producción
+frontend/build/
+
+# Archivos de entorno locales
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Misc
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# =============================================
+# BACKEND (Node.js/Express/NestJS)
+# =============================================
+
+# Dependencias
+backend/node_modules/
+
+# Archivos de entorno locales
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.test
+backend/.env.production
+
+# Logs y caché
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.DS_Store
+
+# Base de datos local (ej: SQLite)
+backend/*.db
+backend/*.sqlite
+
+# =============================================
+# GENERAL (para todo el repositorio)
+# =============================================
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
